@@ -1,0 +1,28 @@
+{
+  "name": "option",
+  "version": "1.0.0",
+  "description": "A TypeScript port of Rust's Option<T> type, providing a type-safe way to handle nullable values and avoid null pointer exceptions.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oknesar/option.git"
+  },
+  "keywords": [
+    "option",
+    "optional",
+    "some",
+    "none",
+    "monad",
+    "functional programming",
+    "fp"
+  ],
+  "author": "Vladyslav Rasenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oknesar/option/issues"
+  },
+  "homepage": "https://github.com/oknesar/option#readme"
+}
