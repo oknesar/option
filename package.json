@@ -1,28 +1,42 @@
 {
-  "name": "option",
-  "version": "1.0.0",
-  "description": "A TypeScript port of Rust's Option<T> type, providing a type-safe way to handle nullable values and avoid null pointer exceptions.",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oknesar/option.git"
-  },
-  "keywords": [
-    "option",
-    "optional",
-    "some",
-    "none",
-    "monad",
-    "functional programming",
-    "fp"
-  ],
-  "author": "Vladyslav Rasenko",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/oknesar/option/issues"
-  },
-  "homepage": "https://github.com/oknesar/option#readme"
+	"name": "option",
+	"version": "1.0.0",
+	"description": "A TypeScript port of Rust's Option<T> type, providing a type-safe way to handle nullable values and avoid null pointer exceptions.",
+	"main": "dist/lib/index.js",
+	"module": "dist/es6/index.js",
+	"typings": "dist/lib/index.d.ts",
+	"scripts": {
+		"prebuild": "npm run clean",
+		"build": "tsc -p ./tsconfig.build.json && tsc -p ./tsconfig.build-es6.json",
+		"postbuild": "biome format --log-level=error --vcs-use-ignore-file=false --write ./dist/**/*.ts",
+		"test": "vitest --run",
+		"format": "biome format --write",
+		"lint": "biome lint --write",
+		"check": "biome check --write",
+		"clean": "rimraf ./dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oknesar/option.git"
+	},
+	"keywords": [
+		"option",
+		"optional",
+		"monad",
+		"functional-programming",
+		"functional programming",
+		"fp"
+	],
+	"author": "Vladyslav Rasenko",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/oknesar/option/issues"
+	},
+	"homepage": "https://github.com/oknesar/option#readme",
+	"devDependencies": {
+		"@biomejs/biome": "2.3.10",
+		"rimraf": "^6.1.2",
+		"typescript": "^5.9.3",
+		"vitest": "^4.0.16"
+	}
 }

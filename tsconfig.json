@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"target": "es6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"lib": ["es6"],
+		"sourceMap": false,
+		"declaration": true,
+		"strict": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true,
+		"stripInternal": true,
+		"skipLibCheck": true
+	},
+	"include": ["./src", "./test"],
+	"exclude": ["./node_modules"]
+}
