@@ -1,7 +1,7 @@
 {
 	"name": "@rsnk/option",
 	"private": false,
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A TypeScript port of Rust's Option<T> type, providing a type-safe way to handle nullable values and avoid null pointer exceptions.",
 	"main": "dist/lib/index.js",
 	"module": "dist/es6/index.js",
@@ -16,6 +16,9 @@
 		"check": "biome check --write",
 		"clean": "rimraf ./dist"
 	},
+	"files": [
+		"dist"
+	],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/oknesar/option.git"
