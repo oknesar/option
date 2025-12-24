@@ -1,9 +1,9 @@
 # Option
 
-[![NPM Version](https://img.shields.io/npm/v/@rsnk/option.svg)](https://www.npmjs.com/package/@rsnk/option)
-[![NPM License](https://img.shields.io/npm/l/@rsnk/option.svg)](https://www.npmjs.com/package/@rsnk/option)
-[![NPM Downloads](https://img.shields.io/npm/dt/@rsnk/option.svg)](https://www.npmjs.com/package/@rsnk/option)
-[![Bundle Size](https://img.shields.io/bundlephobia/minzip/@rsnk/option.svg)](https://bundlephobia.com/result?p=@rsnk/option)
+[![NPM Version](https://img.shields.io/npm/v/@rsnk/option)](https://www.npmjs.com/package/@rsnk/option)
+[![NPM License](https://img.shields.io/npm/l/@rsnk/option)](https://www.npmjs.com/package/@rsnk/option)
+[![NPM Downloads](https://img.shields.io/npm/dy/@rsnk/option)](https://www.npmjs.com/package/@rsnk/option)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/@rsnk/option)](https://bundlephobia.com/result?p=@rsnk/option)
 
 A TypeScript port of Rust's `Option<T>` type, providing a type-safe way to handle nullable values and avoid null pointer exceptions.
 
