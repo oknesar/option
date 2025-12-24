@@ -1,5 +1,6 @@
 {
 	"name": "@rsnk/option",
+	"private": false,
 	"version": "1.0.0",
 	"description": "A TypeScript port of Rust's Option<T> type, providing a type-safe way to handle nullable values and avoid null pointer exceptions.",
 	"main": "dist/lib/index.js",
