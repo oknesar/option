@@ -47,7 +47,7 @@ if (user) {
 
 // Write this:
 const user = O.fromNullable(getUser()); // Option<User>
-user.map(u => console.log(u.name));
+user.inspect(u => console.log(u.name));
 ```
 
 ## Quick Start
